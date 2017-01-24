@@ -1,4 +1,4 @@
-FROM pachulo/docker-xenial-gnuradio-rtl-toolkit:latest
+FROM pachulo/xenial-gnuradio-rtl-toolkit:latest
 
 LABEL version="1.0"
 
