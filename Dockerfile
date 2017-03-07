@@ -10,7 +10,7 @@ RUN git clone --depth 1 https://github.com/ptrkrysik/gr-gsm/ && \
         cd build && \
         cmake .. && \
         make && \
-        make install &&
+        make install && \
         ldconfig
 
 COPY files/config.conf /root/.gnuradio/config.conf
