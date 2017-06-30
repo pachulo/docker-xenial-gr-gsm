@@ -4,7 +4,7 @@ LABEL version="1.0"
 
 MAINTAINER Marc Peña Segarra <segarrra@gmail.com>
 
-RUN git clone --depth 1 https://github.com/ptrkrysik/gr-gsm/ && \
+RUN git clone --recursive --depth 1 https://github.com/ptrkrysik/gr-gsm/ && \
         cd gr-gsm && \
         mkdir build && \
         cd build && \
